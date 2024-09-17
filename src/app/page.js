@@ -180,7 +180,7 @@ export default function Home() {
       </div>
       <button
         onClick={toggleView}
-        className="fixed left-4 bottom-4 backdrop-blur-md text-white font-bold py-2 px-4 rounded"
+        className="fixed left-4 bottom-4 text-neutral-500 border font-bold py-2 px-4 rounded"
       >
         {showFuture ? "Current" : "Future"}
       </button>
